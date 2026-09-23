@@ -57,6 +57,7 @@ Currently, I'm going deeper into **AI engineering, LLMs, agents, and AI-powered 
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
 
+---
 
 ## 🚀 What I'm learning
 
@@ -78,6 +79,10 @@ I'm exploring:
 * Building practical AI features into existing applications
 
 I'm especially interested in the space where **traditional backend engineering meets AI**.
+
+
+---
+
 
 ## 🌐 Find me
 
