@@ -57,28 +57,6 @@ Currently, I'm going deeper into **AI engineering, LLMs, agents, and AI-powered 
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
 
----
-
-## Currently working on
-
-### 🏪 Business & Retail Systems
-
-I'm currently working on systems that bring together **inventory, POS, workforce management, and business operations**.
-
-Some of the problems I work on:
-
-* **Multi-tenant architecture** — keeping tenant data properly isolated at the database level.
-* **Offline-first POS** — allowing sales and other operations to continue when connectivity is unreliable, then synchronising data when the connection returns.
-* **Realtime systems** — WebSockets for live updates and synchronisation between clients.
-* **Inventory & sales workflows** — products, stock, transactions, customers, and operational workflows.
-* **Workforce management** — clock-in/out, attendance, and realtime workforce information.
-* **AWS infrastructure** — deploying and operating production workloads in the cloud.
-* **Transactional email** — verification, password resets, MFA/security notifications and other application events.
-* **CI/CD & infrastructure as code** — GitHub Actions, Docker, Terraform, and AWS.
-
-I like working on the uncomfortable parts too: **race conditions, authentication, tenant isolation, failed deployments, migrations, synchronisation, and the bugs that only appear in production.**
-
----
 
 ## 🚀 What I'm learning
 
@@ -101,28 +79,6 @@ I'm exploring:
 
 I'm especially interested in the space where **traditional backend engineering meets AI**.
 
----
-
-## 📚 Currently learning
-
-**Backend → Distributed Systems → Cloud → AI Engineering**
-
-I'm particularly interested in understanding:
-
-`How does this work?`
-
-→ `Why was it designed this way?`
-
-→ `What happens when it fails?`
-
-→ `How does it behave at scale?`
-
-→ `Can we make it simpler?`
-
-→ `Can AI make it better?`
-
----
-
 ## 🌐 Find me
 
 <a href="https://www.linkedin.com/in/ojaswi-khanal-0ab13b26a">
@@ -132,14 +88,3 @@ I'm particularly interested in understanding:
   <img src="https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" />
 </a>
 
----
-
-### ⚡ Currently
-
-**Building products. Learning systems. Breaking things. Fixing them. Learning why they broke.**
-
-`software → cloud → distributed systems → AI`
-
-And somewhere in between, probably asking:
-
-> *"Okay... but what actually happens underneath?"*
