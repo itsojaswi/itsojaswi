@@ -1,37 +1,37 @@
 # Ojaswi Khanal
 
-**Full-stack product engineer · Kathmandu, Nepal**
+**Full-Stack Developer · Backend & Cloud · Kathmandu, Nepal**
 
-I build multi-tenant SaaS products end to end — the API, the database, the dashboard,
-and the infrastructure they run on. Most of my work sits in retail and services:
-point-of-sale, inventory, and e-commerce systems that businesses run their day on.
+I’m a software developer who likes understanding **how things work underneath** — not just making an API return `200 OK`.
 
-I care about the parts that are easy to skip — tenant isolation that actually holds,
-migrations you can trust, and offline behaviour that doesn't lose a sale.
+I build full-stack applications with a focus on **backend systems, multi-tenant SaaS, databases, cloud infrastructure, and real-world product behaviour**.
 
-Lately I've been exploring AI and LLM-backed developer tooling.
+Most of my recent work has been around **inventory, POS, workforce, and business management systems** — the kind of software people actually depend on to run their day.
+
+I enjoy working across the stack: designing APIs, modelling databases, building dashboards, handling realtime communication, deploying services on AWS, and figuring out what happens when the internet inevitably decides to disappear.
+
+Currently, I'm going deeper into **AI engineering, LLMs, agents, and AI-powered developer tools**.
 
 ---
 
-## What I build with
+## What I work with
 
-**Languages**
+### Languages
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
 
-**Frontend**
+### Frontend
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![TanStack Query](https://img.shields.io/badge/TanStack%20Query-FF4154?style=flat-square&logo=reactquery&logoColor=white)
+![TanStack Query](https://img.shields.io/badge/TanStack_Query-FF4154?style=flat-square&logo=reactquery&logoColor=white)
 ![Zustand](https://img.shields.io/badge/Zustand-433E38?style=flat-square)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
 
-**Backend**
+### Backend
 
 ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
@@ -39,76 +39,91 @@ Lately I've been exploring AI and LLM-backed developer tooling.
 ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
 ![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white)
 
-**Data**
+### Databases & Data
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white)
-![Drizzle](https://img.shields.io/badge/Drizzle%20ORM-C5F74F?style=flat-square&logo=drizzle&logoColor=black)
+![Drizzle](https://img.shields.io/badge/Drizzle-ORM-C5F74F?style=flat-square&logo=drizzle&logoColor=black)
 ![TypeORM](https://img.shields.io/badge/TypeORM-FE0803?style=flat-square)
 
-**Cloud & tooling**
+### Cloud & Engineering
 
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
 
 ---
 
-## Currently building
+## Currently working on
 
-**A multi-tenant retail platform** — a modular monolith that serves a point-of-sale
-terminal, inventory management, and a customer-facing storefront from one codebase.
+### 🏪 Business & Retail Systems
 
-- **Tenant isolation enforced in the database**, not just in application code —
-  PostgreSQL row-level security tied to the connection running each request.
-- **An offline-first POS.** Products and customers are cached locally, sales continue
-  through a dropped connection, and a sync engine reconciles them idempotently.
-- **Realtime updates** over WebSockets for checkouts, refunds, and low-stock alerts.
-- **Migrations that fail loudly** — checksummed, advisory-locked, applied one
-  transaction at a time.
+I'm currently working on systems that bring together **inventory, POS, workforce management, and business operations**.
 
-`TypeScript` · `Next.js` · `Fastify` · `Drizzle` · `PostgreSQL` · `Redis` · `BullMQ` · `Flutter` · `Terraform`
+Some of the problems I work on:
 
----
+* **Multi-tenant architecture** — keeping tenant data properly isolated at the database level.
+* **Offline-first POS** — allowing sales and other operations to continue when connectivity is unreliable, then synchronising data when the connection returns.
+* **Realtime systems** — WebSockets for live updates and synchronisation between clients.
+* **Inventory & sales workflows** — products, stock, transactions, customers, and operational workflows.
+* **Workforce management** — clock-in/out, attendance, and realtime workforce information.
+* **AWS infrastructure** — deploying and operating production workloads in the cloud.
+* **Transactional email** — verification, password resets, MFA/security notifications and other application events.
+* **CI/CD & infrastructure as code** — GitHub Actions, Docker, Terraform, and AWS.
 
-## Experience
-
-**Software Engineer** — Genese Solution, Lalitpur · 1 year
-
-Built a multi-tenant SaaS platform on Node.js, NestJS, React and PostgreSQL. Designed
-and maintained REST APIs, JWT authentication with role-based access control, and the
-database schema behind them. Contributed reusable React components to a shared
-design system.
-
-**DevOps Intern** — cloudLaya, Lalitpur · 4 months
-
-Deployed and maintained production applications on AWS (EC2, S3, RDS, VPC). Built
-CI/CD pipelines with GitHub Actions, containerised services with Docker, and
-monitored running systems.
+I like working on the uncomfortable parts too: **race conditions, authentication, tenant isolation, failed deployments, migrations, synchronisation, and the bugs that only appear in production.**
 
 ---
 
-## Selected work
+## 🚀 What I'm learning
 
-| Project | What it is | Stack |
-| --- | --- | --- |
-| [Portfolio](https://ojaswi-khanal.vercel.app/) · [source](https://github.com/itsojaswi/my_portfolio) | Personal site — terminal-inspired, animated | Next.js, TypeScript, Tailwind, Framer Motion |
-| [FitFusion](https://github.com/itsojaswi/FYP-FitFusion) | Fitness tracking app — final year project | MERN, JWT, RBAC |
-| [Recipe App](https://github.com/itsojaswi/recipe-backend) | Recipe manager with full CRUD and auth | React, Express, MongoDB |
-| [DevOps demo](https://github.com/itsojaswi/backend-devops) | Containerised app with an automated deploy pipeline | Docker, GitHub Actions, AWS |
+My current rabbit hole is **AI engineering**.
+
+Not just "how to use ChatGPT", but how to actually build software around AI.
+
+I'm exploring:
+
+* LLM APIs
+* Tool calling
+* AI agents
+* RAG and embeddings
+* AI-powered developer tools
+* Structured outputs
+* Prompt engineering
+* AI + databases
+* Agentic workflows
+* Building practical AI features into existing applications
+
+I'm especially interested in the space where **traditional backend engineering meets AI**.
 
 ---
 
-## Education
+## 📚 Currently learning
 
-**Herald College Kathmandu** — 2023
-freeCodeCamp certifications in web development
+**Backend → Distributed Systems → Cloud → AI Engineering**
+
+I'm particularly interested in understanding:
+
+`How does this work?`
+
+→ `Why was it designed this way?`
+
+→ `What happens when it fails?`
+
+→ `How does it behave at scale?`
+
+→ `Can we make it simpler?`
+
+→ `Can AI make it better?`
 
 ---
+
+## 🌐 Find me
 
 <a href="https://www.linkedin.com/in/ojaswi-khanal-0ab13b26a">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
@@ -116,3 +131,15 @@ freeCodeCamp certifications in web development
 <a href="https://ojaswi-khanal.vercel.app/">
   <img src="https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" />
 </a>
+
+---
+
+### ⚡ Currently
+
+**Building products. Learning systems. Breaking things. Fixing them. Learning why they broke.**
+
+`software → cloud → distributed systems → AI`
+
+And somewhere in between, probably asking:
+
+> *"Okay... but what actually happens underneath?"*
