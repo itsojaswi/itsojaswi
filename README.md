@@ -1,14 +1,14 @@
 # Ojaswi Khanal
 
-**Full-Stack Developer · Backend & Cloud · Kathmandu, Nepal**
+**Full-Stack Developer · Backend & Cloud**
 
-I’m a software developer who likes understanding **how things work underneath** — not just making an API return `200 OK`.
+I’m a software developer who likes understanding **how things work underneath**, not just making an API return `200 OK`.
 
 I build full-stack applications with a focus on **backend systems, multi-tenant SaaS, databases, cloud infrastructure, and real-world product behaviour**.
 
 Most of my recent work has been around **inventory, POS, workforce, and business management systems** — the kind of software people actually depend on to run their day.
 
-I enjoy working across the stack: designing APIs, modelling databases, building dashboards, handling realtime communication, deploying services on AWS, and figuring out what happens when the internet inevitably decides to disappear.
+I enjoy working across the stack: designing APIs, modelling databases, building dashboards, handling realtime communication, deploying services on AWS, and figuring out how things work.
 
 Currently, I'm going deeper into **AI engineering, LLMs, agents, and AI-powered developer tools**.
 
