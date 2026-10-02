@@ -58,30 +58,6 @@ Currently, I'm going deeper into **AI engineering, LLMs, agents, and AI-powered 
 
 ---
 
-## 🚀 What I'm learning
-
-My current rabbit hole is **AI engineering**.
-
-Not just "how to use ChatGPT", but how to actually build software around AI.
-
-I'm exploring:
-
-* LLM APIs
-* Tool calling
-* AI agents
-* RAG and embeddings
-* AI-powered developer tools
-* Structured outputs
-* Prompt engineering
-* AI + databases
-* Agentic workflows
-* Building practical AI features into existing applications
-
-I'm especially interested in the space where **traditional backend engineering meets AI**.
-
-
----
-
 
 ## 🌐 Find me
 
